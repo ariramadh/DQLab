@@ -37,4 +37,3 @@ df_load.drop_duplicates()
 df_load = df_load.sort_values('UpdatedAt', ascending=False).drop_duplicates(['customerID'])
 print('Hasil jumlah ID Customer yang sudah dihilangkan duplikasinya (distinct) adalah',df_load['customerID'].count())
 # ########################################################################
-
